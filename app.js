@@ -12,6 +12,11 @@ res.json({message:"This is a test"})
 
 }))
 
+app.use(("/abc",(req,res)=>{
+res.json({message:"This is a abc"})
+
+}))
+
 
 app.use(("/test123",(req,res)=>{
 res.json({message:"This is a test123"})
