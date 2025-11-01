@@ -13,6 +13,10 @@ res.json({message:"This is a test"})
 }))
 
 
+app.use(("/test123",(req,res)=>{
+res.json({message:"This is a test123"})
+}))
+
 app.listen(PORT,()=>{
 console.log(`Server is running on PORT ${PORT}`)
 })
